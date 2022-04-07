@@ -1,1 +1,1 @@
-DROP TABLE characters
+SELECT * FROM characters

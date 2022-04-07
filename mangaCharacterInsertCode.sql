@@ -15,3 +15,24 @@ INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
 VALUES ('Yuzuki', 'Tachibana', 17, 'Iwate prefecture, Japan', 'unknown'), ('Tamahiko', 'Shima', 20, 'Tokyo, Japan', 'unknown'),
 ('Tamako', 'Shima', 15, 'Tokyo, Japan', 'unknown'), ('Hakaru', 'Shiratori', 19, 'unknown', 'unknown'),
 ('Ryo', 'Atsumi', 18, 'Chibe, Japan', 'unknown') --Primary characters you see in 'Taishou Otome Otogibanashi'
+
+INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
+VALUES ('Marin', 'Kitagawa', 15, 'Japan', 'unknown'), ('Wakana', 'Gojo', 15, 'Japan', 'unknown'),
+('Sajuna', 'Inui', 17, 'Japan', 'unknown'), ('Shinju', 'Inui', 13, 'Japan', 'unknown')
+
+INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
+VALUES ('Micchon', 'Shikimori', 16, 'Japan', 'unknown'), ('Yuu', 'Izumi', 16, 'Japan', 'unknown'),
+('Shuu', 'Inuzuka', 16, 'Japan', 'unknown'), ('Yui', 'Hachimitsu', 16, 'Japan', 'unknown'),
+('Kyou', 'Nekozaki', 16, 'Japan', 'unknown')
+
+INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
+VALUES ('Kaname', 'Arisugawa', 15, 'Japan', 'unknown'), ('Aya', 'Arisugawa', 17, 'Japan', 'unknown'),
+('Tsukasa', 'Tsukuyomi', 16, 'Japan', 'O'), ('Chitose', 'Kaginoji', 14, 'Japan', 'unknown'),
+('Kanoka', 'Yuzaki', 45, 'Japan', 'unknown')
+
+INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
+VALUES ('Nasa', 'Yuzaki', 17, 'Japan', 'A'), ('Enishi', 'Yuzaki', 45, 'Japan', 'unknown')
+
+INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
+VALUES ('Kuroto', 'Nakano', 30, 'Japan', 'unknown'), ('Senko', 'unknown', 800, 'unknown', 'unknown'),
+('Koenji', 'Yasuko', 20, 'Japan', 'unknown'), ('Shiro', 'unknown', 900, 'unknown', 'unknown')
