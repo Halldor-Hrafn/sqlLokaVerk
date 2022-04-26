@@ -12,4 +12,4 @@ VALUES ('Kenja no Deshi wo Nanoru Kenja', 8, 52.2, 'ongoing'), ('Karakai Jouzu n
 
 INSERT INTO mangas (title, volumes, chapters, publication)
 VALUES ('Suki na Ko ga Megane wo Wasureta', 9, 86, 'ongoing'), ('Shachiku-san wa Youjo Yuurei ni Iyasaretai', 7, 34, 'ongoing'),
-('Oku-sama wa Nizzuma-chan', 4, 24, 'ongoing'), ('Hanging Out with a Gamer Girl', 6, 108, 'ongoing')
+('Oku-sama wa Niizuma-chan', 4, 24, 'ongoing'), ('Hanging Out with a Gamer Girl', 6, 108, 'ongoing')
