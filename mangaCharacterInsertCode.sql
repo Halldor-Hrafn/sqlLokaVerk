@@ -48,7 +48,7 @@ VALUES ('unknown', 'Takagi', 14, 'Japan', 'O'), ('unknown', 'Nishikata', 14, 'Ja
 ('Sanae', 'Tsukimoto', 14, 'Japan', 'unknown')
 
 INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
-VALUES ('Takagi', 'Nishikata', 26, 'Japan', 'O'), ('unknown', 'Nishikata', 26, 'Japan', 'O'), --From 'Karakai Jouzu no (Moto) takagi-san'
+VALUES ('mom', 'Nishikata', 26, 'Japan', 'O'), ('dad', 'Nishikata', 26, 'Japan', 'O'), --From 'Karakai Jouzu no (Moto) takagi-san'
 ('Chi', 'Nishikata', 4, 'Japan', 'O')
 
 INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
