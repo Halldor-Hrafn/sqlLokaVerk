@@ -20,8 +20,7 @@ CREATE TABLE animeStudios (
 CREATE TABLE streamingServices (
     idService INTEGER PRIMARY KEY,
     name TEXT,
-    link TEXT,
-    isPirated INT
+    link TEXT
 )
 
 CREATE TABLE genreAnimes (

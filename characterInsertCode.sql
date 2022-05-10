@@ -52,7 +52,27 @@ VALUES ('Takagi', 'Nishikata', 26, 'Japan', 'O'), ('unknown', 'Nishikata', 26, '
 ('Chi', 'Nishikata', 4, 'Japan', 'O')
 
 INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
-VALUES ('Hajime', 'Nagumo', 17, 'Japan', 'unknown'), ('Kaori', 'Shirasaki', 17, 'Japan', 'unknown'), --From Arifureta
+VALUES ('Hajime', 'Nagumo', 17, 'Japan', 'unknown'), ('Kaori', 'Shirasaki', 17, 'Japan', 'unknown'), --From 'Arifureta'
 ('Shizuki', 'Yaegashi', 17, 'Japan', 'unknown'), ('Yue', 'unknown', 323, 'unknown', 'unknown'),
 ('Tio', 'Klarus', 563, 'unknown', 'unknown'), ('Shea', 'Haulia', 16, 'unknown', 'unknown'),
 ('Myu', 'unknown', 4, 'unknown', 'unknown')
+
+INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
+VALUES ('Azusa', 'Aizawa', 300, 'The Highlands', 'unknown'), ('Laika', 'unknown', 300, 'red dragon tribe', 'unknown'), --From 'Slime 300'
+('Falfa', 'Aizawa', 50, 'The Highlands', 'unknown'), ('Shalsha', 'Aizawa', 50, 'The Highlands', 'unknown'),
+('Beelzebub', 'unknown', 3000, 'The demon land', 'unknown'), ('Rosalie', 'unknown', 150, 'unknown', 'unknown'),
+('Halkara', 'unknown', 225, 'unknown', 'unknown'), ('Flatorte', 'unknown', 400, 'blue dragon tribe', 'unknown')
+
+INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
+VALUES ('Arc', 'unknown', 0, 'unknown', 'unknown'), ('Ariane', 'Glenys Maple', 120, 'Maple', 'unknown'), --from 'Skeleton knight in another world'
+('Chiyome', 'unknown', 0, 'unknown', 'unknown')
+
+INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
+VALUES ('Ainz', 'Ooal Gown', 0, 'Japan', 'unknown'), ('Albedo', 'unknown', 0, 'Great tomb of Nazarick', 'unknown'), --From 'Overlord'
+('Shalltear', 'Bloodfallen', 0, 'Great tomb of Nazarick', 'unknown'), ('Demiurge', 'unknown', 0, 'Great tomb of Nazarick', 'unknown'),
+('Coctyus', 'unknown', 0, 'Great tomb of Nazarick', 'unknown'), ('Aura', 'Bella Fiora', 0, 'Great tomb of Nazarick', 'unknown'),
+('Mare', 'Bello Fiore', 0, 'Great tomb of Nazarick', 'unknown')
+
+INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
+VALUES ('Nephilia', 'unknown', 0, 'unknown', 'unknown'), ('Zagan', 'unknown', 0, 'unknown', 'unknown'),
+('Valefar', 'unknown', 0, 'unknown', 'unknown')

@@ -13,3 +13,7 @@ VALUES ('Ryuusen', 'Hirotsugu', 0, 'unknown'), ('Yamamoto', 'Souichirou', 310519
 INSERT INTO authors(firstName, lastName, birthday, birthplace)
 VALUES ('Fujichika', 'Koume', 0, 'unkown'), ('Imari', 'arita', 0, 'unknown'),
 ('Rucchiifu', 'unknown', 0, 'unknown'), ('unknown', 'Niichi', 0, 'unknown')
+
+INSERT INTO authors (firstName, lastName, birthday, birthplace)
+VALUES ('Morita', 'Kisetsu', 10041984, 'Kobe, Japan'), ('Hakari', 'Enki', 0, 'Japan'),
+('Maruyama', 'Kuhane', 0, 'unknown'), ('Teshima', 'Fuminori', 0, 'unknown')
