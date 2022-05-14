@@ -89,3 +89,14 @@ INSERT INTO charactersAnime (firstName, lastName, age, dere, bloodType)
 VALUES ('Arc', 'unknown', 0, 'uknown', 'unknown'),
 ('Ariane', 'Glenys Lalatoya', 110, 'tsundere', 'unknown'),
 ('Ponta', 'unknown', 0, 'unknown', 'unknown')
+
+INSERT INTO charactersAnime (firstName, lastName, age, dere, bloodType)
+VALUES ('Micchon', 'Shikimori', 16, 'unknown', 'unknown'),
+('Yuu', 'Izumi', 16, 'unknown', 'unknown'),
+('Yui', 'Hachimitsu', 16, 'Kuudere', 'unknown'),
+('Shuu', 'Inuzuka', 16, 'unknown', 'unknown'),
+('Kyou', 'Nekozaki', 16, 'unknown', 'unknown')
+
+INSERT INTO charactersAnime (firstName, lastName, age, dere, bloodType)
+VALUES ('Mira', 'unknown', 0, 'unknown', 'unknown'),
+('Solomon', 'unknown', 0, 'unknown', 'unknown')

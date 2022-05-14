@@ -57,3 +57,9 @@ CREATE TABLE voiceActors (
     birthplace TEXT,
     bloodType TEXT
 );
+
+CREATE TABLE characterActors (
+    idCharacter INTEGER,
+    idActor INTEGER,
+    PRIMARY KEY (idCharacter, idActor)
+)

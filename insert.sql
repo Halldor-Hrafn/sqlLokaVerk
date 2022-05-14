@@ -26,3 +26,5 @@ VALUES ('Slime Taoshite 300-nen, Shiranai Uchi ni Level MAX ni Nattemashita', 10
 INSERT INTO animes (title, episodes, seasons, releaseDate)
 VALUES ('Sono Bisque Doll wa Koi wo Suru', 12, 1, 09012022),
 ('Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu', 12, 1, 07042022),
+('Kawaii dake ja Nai Shikimori-san', 12, 1, 10042022),
+('Kenja no Deshi wo Nanoru Kenja', 12, 1, 12012022)
