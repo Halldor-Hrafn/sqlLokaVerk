@@ -6,4 +6,10 @@ INNER JOIN mangas
     ON mangaCharacters.idManga = mangas.idManga
 WHERE mangas.title = 'Slime Taoshite 300-nen, Shiranai Uchi ni Level MAX ni Nattemashita'
 
-SELECT 
+SELECT title, characters.firstName, characters.lastName
+FROM mangas
+INNER JOIN mangaCharacters
+    ON mangas.idManga = mangaCharacters.idManga
+INNER JOIN characters
+    ON mangaCharacters.idCharacter = characters.idCharacter
+WHERE characters.firstName = 'Ainz';

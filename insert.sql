@@ -20,3 +20,9 @@ VALUES ('Slime Taoshite 300-nen, Shiranai Uchi ni Level MAX ni Nattemashita', 10
 ('Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu', 10, 48, 'ongoing'),
 ('Overlord', 16, 68, 'ongoing'),
 ('Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba ii?', 8, 42, 'ongoing')
+
+--The anime part
+
+INSERT INTO animes (title, episodes, seasons, releaseDate)
+VALUES ('Sono Bisque Doll wa Koi wo Suru', 12, 1, 09012022),
+('Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu', 12, 1, 07042022),

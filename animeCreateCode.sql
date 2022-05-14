@@ -4,35 +4,35 @@ CREATE TABLE animes (
     episodes INT,
     seasons INT,
     releaseDate INT
-)
+);
 
 CREATE TABLE studio (
     idStudio INTEGER PRIMARY KEY,
     name TEXT
-)
+);
 
 CREATE TABLE animeStudios (
     idAnime INTEGER,
     idStudio INTEGER,
-    PRIMARY KEY(idAdnime, idStudio)
-)
+    PRIMARY KEY(idAnime, idStudio)
+);
 
 CREATE TABLE streamingServices (
     idService INTEGER PRIMARY KEY,
     name TEXT,
     link TEXT
-)
+);
 
 CREATE TABLE genreAnimes (
     idGenre INTEGER PRIMARY KEY,
     name TEXT
-)
+);
 
 CREATE TABLE animeGenres (
     idAnime INTEGER,
     idGenre INTEGER,
     PRIMARY KEY(idAnime, idGenre)
-)
+);
 
 CREATE TABLE charactersAnime (
     idCharacter INTEGER PRIMARY KEY,
@@ -41,13 +41,13 @@ CREATE TABLE charactersAnime (
     age INT,
     dere TEXT,
     bloodType TEXT
-)
+);
 
 CREATE TABLE animeCharacters (
     idAnime INTEGER,
     idCharacter INTEGER,
     PRIMARY KEY(idAnime, idCharacter)
-)
+);
 
 CREATE TABLE voiceActors (
     idActor INTEGER PRIMARY KEY,
@@ -56,4 +56,4 @@ CREATE TABLE voiceActors (
     birthday INT,
     birthplace TEXT,
     bloodType TEXT
-)
+);

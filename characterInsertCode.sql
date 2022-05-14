@@ -76,3 +76,16 @@ VALUES ('Ainz', 'Ooal Gown', 0, 'Japan', 'unknown'), ('Albedo', 'unknown', 0, 'G
 INSERT INTO characters (firstName, lastName, age, birthplace, bloodType)
 VALUES ('Nephilia', 'unknown', 0, 'unknown', 'unknown'), ('Zagan', 'unknown', 0, 'unknown', 'unknown'),
 ('Valefar', 'unknown', 0, 'unknown', 'unknown')
+
+--The anime part
+
+INSERT INTO charactersAnime (firstName, lastname, age, dere, bloodType)
+VALUES ('Marin', 'Kitagawa', 15, 'deredere', 'unknown'),
+('Gojo', 'Wakana', 15, 'unknown', 'unknown'),
+('Sajuna', 'Inui', 16, 'tsundere', 'unknown'),
+('Shinju', 'Inui', 14, 'unknown', 'unknown')
+
+INSERT INTO charactersAnime (firstName, lastName, age, dere, bloodType)
+VALUES ('Arc', 'unknown', 0, 'uknown', 'unknown'),
+('Ariane', 'Glenys Lalatoya', 110, 'tsundere', 'unknown'),
+('Ponta', 'unknown', 0, 'unknown', 'unknown')
